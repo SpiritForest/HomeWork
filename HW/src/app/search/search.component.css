@@ -1,0 +1,43 @@
+.videoBlock {
+    max-width: 480px;
+    border: 2px solid orange;
+    border-radius: 2rem;
+    margin: 20px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.wrap-for-search {
+    display: flex;
+    justify-content: center;
+}
+
+.search {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+}
+
+input {
+    width: 70%;
+    height: inherit;
+    font-size: 1.3rem;
+    border-radius: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    outline: none;
+}
+
+input:focus {
+    background-color: lightgoldenrodyellow;
+}
+
+button {
+    border-radius: 3px;
+}
